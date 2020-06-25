@@ -28,10 +28,10 @@
     </head>
 
 <body>
-   <section class="colored-section" id="title">
+   <section class="title-section" id="title">
       <div class="container-fluid">
          <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand titleLogo" href="">GHCB Stats</a>
+            <a class="navbar-brand titleLogo" href=""><i class="fab fa-discord"></i> GHCB Stats</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -57,23 +57,33 @@
    <section class="plain-section" id="data1">
       <div class="container-fluid">
          <h1>Total Messages Delivered </h1>
-         <p>*per person</p>
+         <h6>*per person</h6>
          <div id="chartdiv"></div>
       </div>
    </section>
 
-   <section class="plain-section" id="data2">
+   <section class="colored-section" id="data2">
       <div class="container-fluid">
-         <h1>Member DM Distribution</h1>
-         <p>inserting the weird circle graph in a bit...</p>
+         <h1>Messages Over Time</h1>
+         <h6>*filling data in later ... lots of JavaScript to filter through ;___;</h6>
+          <div id="linechartdiv"></div>
       </div>
    </section>
 
-   <section class="colored-section" id="credits">
+   <section class="plain-section" id="data3">
       <div class="container-fluid">
-         <p>Thanks a ton Chandler for data mining and Aaron/others who organized the data</p>
+         <h1>Raw Data Tables -- Going to find another nice table template to use . . . </h1>
+      </div>
+
+   </section>
+
+   <section class="title-section" id="credits">
+      <div class="container-fluid">
+         <h5>Thanks a ton Chandler for data mining and Aaron/others who organized the data</h5>
       </div>
    </section>
+
+
 </body>
 <script src="index.js" charset="utf-8"></script>
 </html>
