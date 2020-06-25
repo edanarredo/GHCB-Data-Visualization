@@ -9,23 +9,23 @@ am4core.ready(function () {
    chart.data = [
       {
          name: "Aaron",
-         messages: 48580
+         messages: 52312
       },
       {
          name: "James",
-         messages: 46435
+         messages: 48526
       },
       {
          name: "Dan",
-         messages: 19746
-      },
-      {
-         name: "Thomas",
-         messages: 13827
+         messages: 20445
       },
       {
          name: "Chandler",
-         messages: 12472
+         messages: 15359
+      },
+      {
+         name: "Thomas",
+         messages: 15136
       },
       {
          name: "Bryan",
@@ -33,31 +33,31 @@ am4core.ready(function () {
       },
       {
          name: "Hector",
-         messages: 10506
+         messages: 11797
       },
       {
          name: "Ryan",
-         messages: 3186
+         messages: 3156
       },
       {
          name: "Jackson",
-         messages: 1955
+         messages: 2644
       },
       {
          name: "Kam",
-         messages: 1289
+         messages: 1296
+      },
+      {
+         name: "Ian",
+         messages: 924
       },
       {
          name: "Brandon",
          messages: 912
       },
       {
-         name: "Ian",
-         messages: 638
-      },
-      {
-         name: "Others",
-         messages: 500
+         name: "Josh",
+         messages: 584
       }
    ];
 
