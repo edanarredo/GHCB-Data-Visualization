@@ -69,7 +69,7 @@ am4core.ready(function () {
 
    var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
    valueAxis.min = 0;
-   valueAxis.max = 50000;
+   valueAxis.max = 55000;
    valueAxis.strictMinMax = true;
    valueAxis.renderer.minGridDistance = 30;
    // axis break
