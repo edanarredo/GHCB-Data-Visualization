@@ -1,5 +1,4 @@
 am4core.ready(function () {
-
    // Themes begin
    am4core.useTheme(am4themes_animated);
    // Themes end
@@ -45,7 +44,7 @@ am4core.ready(function () {
          messages: 1955
       },
       {
-         name: "Kameron",
+         name: "Kam",
          messages: 1289
       },
       {
@@ -119,7 +118,7 @@ am4core.ready(function () {
       return chart.colors.getIndex(target.dataItem.index);
    });
 
-   
+
    // -------- LINE CHART --------- //
 
 
@@ -257,4 +256,59 @@ am4core.ready(function () {
       { "value": 1, "value2": 1 },
       { "value": 12, "value2": 19 }
    ];
+
+   /* Another fucking graph (this is the cause of slow page loading, lmao) */
+
+   // Create chart instance
+   var buzzChart = am4core.create("buzzChart", am4charts.PieChart);
+
+   // Add data
+   buzzChart.data = [{
+      "word": "No",
+      "density": 4983
+   }, {
+      "word": "Yes",
+      "density": 2900
+   }, {
+      "word": "Fuck",
+      "density": 1392
+   }, {
+      "word": "Work",
+      "density": 1042
+   }, {
+      "word": "idk",
+      "density": 1031
+   }, {
+      "word": "league",
+      "density": 1030
+   }, {
+      "word": "gay",
+      "density": 850
+   }, {
+      "word": "sure",
+      "density": 650
+   }, {
+      "word": "shit",
+      "density": 581
+   }, {
+      "word": "tarkov",
+      "density": 485
+   }];
+
+   // Set inner radius
+   buzzChart.innerRadius = am4core.percent(50);
+
+   // Add and configure Series
+   var pieSeries = buzzChart.series.push(new am4charts.PieSeries());
+   pieSeries.dataFields.value = "density";
+   pieSeries.dataFields.category = "word";
+   pieSeries.slices.template.stroke = am4core.color("#fff");
+   pieSeries.slices.template.strokeWidth = 2;
+   pieSeries.slices.template.strokeOpacity = 1;
+
+   // This creates initial animation
+   pieSeries.hiddenState.properties.opacity = 1;
+   pieSeries.hiddenState.properties.endAngle = -90;
+   pieSeries.hiddenState.properties.startAngle = -90;
+
 }); // end am4core.ready()
