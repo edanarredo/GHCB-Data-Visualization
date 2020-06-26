@@ -11,7 +11,7 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="resources\css\styles.css">
   <!-- BootStrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -31,10 +31,12 @@
 </head>
 
 <body>
+  
+  <!-- Title Banner Section -->
   <section class="title-section" id="title">
-    <div class="container-fluid">
+    <div class="container-fluid shadow">
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand titleLogo" href=""><i class="fab fa-discord"></i></a>
+        <a class="navbar-brand titleLogo" href=""><i class="fab fa-discord"></i> GHCB</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,13 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#data">Data</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#data2">Some_Category</a>
+              <a class="nav-link" href="#bar-graph">Data</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#credits">Credits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/edanarredo/GHCB-Data-Visualization">Source</a>
             </li>
           </ul>
         </div>
@@ -57,9 +59,8 @@
     </div>
   </section>
 
-
-
-  <section class="plain-section" id="data">
+  <!-- First Bar Graphs -->
+  <section class="plain-section" id="bar-graph">
     <div class="container-fluid">
       <h1>Total Messages Delivered </h1>
       <h6>as of 6/25/2020</h6>
@@ -67,49 +68,49 @@
     </div>
   </section>
 
-  <section class="colored-section" id="firstMessages">
-
-    <div class="container-fluid">
+    <!-- Carousel -->
+  <section class="colored-section" id="first-messages">
+    <div class="container-fluid shadow">
       <div id="firstMessage-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
             <h2 class="firstMessage-text">"What's this?"</h2>
-            <img class="user-image" src="images\thomasProfilePic.jpg" alt="thomas-profile">
+            <img class="user-image" src="resources\images\thomasProfilePic.jpg" alt="thomas-profile">
             <em>-Thomas, 11/09/2015 </em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="firstMessage-text">"ey"</h2>
-            <img class="user-image" src="images\aaronProfilePic.png" alt="aaron-profile">
+            <img class="user-image" src="resources\images\aaronProfilePic.png" alt="aaron-profile">
             <em>-Aaron, 11/09/2015</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="firstMessage-text">"click on general"</h2>
-            <img class="user-image" src="images\danProfilePic.png" alt="dan-profile">
+            <img class="user-image" src="resources\images\danProfilePic.png" alt="dan-profile">
             <em>-Dan, 11/09/2015</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="firstMessage-text">"What?"</h2>
-            <img class="user-image" src="images\bryanProfilePic.jpg" alt="bryan-profile">
+            <img class="user-image" src="resources\images\bryanProfilePic.jpg" alt="bryan-profile">
             <em>-Bryan, 11/13/2015</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="firstMessage-text">"i uhhhhhhhhhh"</h2>
-            <img class="user-image" src="images\jamesProfilePic.jpg" alt="james-profile">
+            <img class="user-image" src="resources\images\jamesProfilePic.jpg" alt="james-profile">
             <em>-James, 12/13/2015</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="firstMessage-text">"noice"</h2>
-            <img class="user-image" src="images\chandlerProfilePic.JPG" alt="chandler-profile">
+            <img class="user-image" src="resources\images\chandlerProfilePic.JPG" alt="chandler-profile">
             <em>-Chandler, 12/19/2015</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="firstMessage-text">"whaaat (╯°□°）╯︵ ┻━┻"</h2>
-            <img class="user-image" src="images\zachProfilePic.jpg" alt="zach-profile">
+            <img class="user-image" src="resources\images\zachProfilePic.jpg" alt="zach-profile">
             <em>Zachary, 02/07/2016</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="firstMessage-text">"Adding more messages later..."</h2>
-            <img class="user-image" src="images\danProfilePic.png" alt="halt-on-content">
+            <img class="user-image" src="resources\images\danProfilePic.png" alt="halt-on-content">
             <em>Dan, 06/25/2020</em>
           </div>
         </div>
@@ -124,34 +125,35 @@
     </div>
   </section>
 
-  <section class="plain-section" id="data2">
-    <div class="container-fluid">
+  <!-- Line Graph Section -->
+  <section class="plain-section" id="line-graph">
+    <div class="container-fluid shadow">
       <h1>Messages Over Time</h1>
       <h6>*filling in data for this graph later, the JS template code is too thicc for my brain rn</h6>
       <div id="linechartdiv"></div>
     </div>
   </section>
 
+    <!-- Circle graph Section -->
   <section class="colored-section" id="buzzwords">
-    <div class="container-fluid">
+    <div class="container-fluid shadow">
       <h1>Top 10 Buzzwords</h1>
       <div id="buzzChart"></div>
     </div>
-
   </section>
 
+  <!-- Credits Section -->
   <section class="title-section" id="credits">
-    <div class="container-fluid">
+    <div class="container-fluid shadow">
       <h5>Thank you Chandler and Aaron for data &#10084</h5>
       <br>
       <h2>GHCB</h2>
     </div>
   </section>
 
-
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="index.js" charset="utf-8"></script>
+<script src="resources\js\index.js" charset="utf-8"></script>
 
 </html>
