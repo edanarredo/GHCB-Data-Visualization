@@ -1,8 +1,8 @@
 # GHCB-Data-Visualization
 A website compilation and visualization of the GHCB Discord Stats gathered by Chandler and Aaron 
 
-Written from scratch (crying) by Daniel
+Project structure is lacking, will fix as I improve.
 
-Project structure is also quite garbage - I'm still relatively new to web development :(
+Technology Used: HTML, CSS, JavaScript, Bootstrap 4
 
-THIS IS A PROTOTYPE AND NOT COMPLETED!!!
+This website is intended for private use and is incomplete.
