@@ -183,7 +183,6 @@ function drawChart() {
 }
 
 $(window).resize(function(){
-   drawChart1();
-   drawChart2();
+   drawChart();
  });
  
