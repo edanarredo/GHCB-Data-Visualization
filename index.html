@@ -27,11 +27,12 @@
   <script src="https://www.amcharts.com/lib/4/core.js"></script>
   <script src="https://www.amcharts.com/lib/4/charts.js"></script>
   <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 </head>
 
 <body>
-  
+
   <!-- Title Banner Section -->
   <section class="title-section" id="title">
     <div class="container-fluid shadow">
@@ -68,60 +69,140 @@
     </div>
   </section>
 
-    <!-- Carousel -->
-  <section class="colored-section" id="first-messages">
-    <div class="container-fluid shadow">
-      <div id="firstMessage-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="firstMessage-text">"What's this?"</h2>
-            <img class="user-image" src="resources\images\thomasProfilePic.jpg" alt="thomas-profile">
-            <em>-Thomas, 11/09/2015 </em>
+
+  <!-- hexagon grid -->
+  <section class="colored-section" id="hexagons">
+ 
+    <div class="container-fluid">
+      <h1 class="hexHeading">Our First Messages</h1>
+      <ul id="hexGrid">
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\thomasProfilePic.jpg" alt="">
+              <h1>"What's this?"</h1>
+              <p>-Thomas, 11/09/2015</p>
+            </a>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="firstMessage-text">"ey"</h2>
-            <img class="user-image" src="resources\images\aaronProfilePic.png" alt="aaron-profile">
-            <em>-Aaron, 11/09/2015</em>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\aaronProfilePic.png" alt="">
+              <h1>ey</h1>
+              <p>-Aaron, 11/09/2015</p>
+            </a>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="firstMessage-text">"click on general"</h2>
-            <img class="user-image" src="resources\images\danProfilePic.png" alt="dan-profile">
-            <em>-Dan, 11/09/2015</em>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\danProfilePic.png" alt="">
+              <h1>"click on general"</h1>
+              <p>-Dan, 11/09/2015</p>
+            </a>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="firstMessage-text">"What?"</h2>
-            <img class="user-image" src="resources\images\bryanProfilePic.jpg" alt="bryan-profile">
-            <em>-Bryan, 11/13/2015</em>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\bryanProfilePic.jpg" alt="">
+              <h1>"What?"</h1>
+              <p>-Bryan, 11/13/2015</p>
+            </a>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="firstMessage-text">"i uhhhhhhhhhh"</h2>
-            <img class="user-image" src="resources\images\jamesProfilePic.jpg" alt="james-profile">
-            <em>-James, 12/13/2015</em>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\jamesProfilePic.jpg" alt="">
+              <h1>"i uhhhhhhhhhh"</h1>
+              <p>-James, 12/13/2015</p>
+            </a>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="firstMessage-text">"noice"</h2>
-            <img class="user-image" src="resources\images\chandlerProfilePic.JPG" alt="chandler-profile">
-            <em>-Chandler, 12/19/2015</em>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\chandlerProfilePic.png" alt="">
+              <h1>"noice"</h1>
+              <p>-Chandler, 12/19/2015</p>
+            </a>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="firstMessage-text">"whaaat (╯°□°）╯︵ ┻━┻"</h2>
-            <img class="user-image" src="resources\images\zachProfilePic.jpg" alt="zach-profile">
-            <em>Zachary, 02/07/2016</em>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\zachProfilePic.jpg" alt="">
+              <h1>"whaaat (╯°□°）╯︵ ┻━┻"</h1>
+              <p>-Zachary, 02/07/2016</p>
+            </a>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="firstMessage-text">"Adding more messages later..."</h2>
-            <img class="user-image" src="resources\images\danProfilePic.png" alt="halt-on-content">
-            <em>Dan, 06/25/2020</em>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\kameronProfilePic.png" alt="">
+              <h1>"https://drive.google..."</h1>
+              <p>-Kameron, 02/21/2016</p>
+            </a>
           </div>
-        </div>
-        <!-- Buttons for Carousel -->
-        <a class="carousel-control-prev" href="#firstMessage-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#firstMessage-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\ryanProfilePIc.png" alt="">
+              <h1>"caps"</h1>
+              <p>-Ryan, 02/28/2016</p>
+            </a>
+          </div>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\jacobProfilePic.png" alt="">
+              <h1>"puu.sh/k0Hkj.jpg"</h1>
+              <p>-Jacob, 06/23/2016</p>
+            </a>
+          </div>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\joshProfilePic.png" alt="">
+              <h1>"https://youtu.be/xrvg7HK-5Sk"</h1>
+              <p>-Josh, 06/23/2016</p>
+            </a>
+          </div>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\hectorProfilePic.gif" alt="">
+              <h1>"62.90"</h1>
+              <p>-Hector, 08/09/2017</p>
+            </a>
+          </div>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\ianProfilePic.png" alt="">
+              <h1>"lol should not have banned camille pussys. I want to play aaron's fiora"</h1>
+              <p>-Ian P., 12/03/2018</p>
+            </a>
+          </div>
+        </li>
+        <li class="hex shadow">
+          <div class="hexIn">
+            <a class="hexLink">
+              <img src="resources\images\noahProfilePic.gif" alt="">
+              <h1>"rip 5 ppl max"</h1>
+              <p>-Noah, 07/05/2019</p>
+            </a>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -129,12 +210,12 @@
   <section class="plain-section" id="line-graph">
     <div class="container-fluid shadow">
       <h1>Messages Over Time</h1>
-      <h6>*filling in data for this graph later, the JS template code is too thicc for my brain rn</h6>
-      <div id="linechartdiv"></div>
+      <h6>*using a stinky google chart because the nicer JavaScript one was a fucking mess</h6>
+      <div id="curve_chart"></div>
     </div>
   </section>
 
-    <!-- Circle graph Section -->
+  <!-- Circle graph Section -->
   <section class="colored-section" id="buzzwords">
     <div class="container-fluid shadow">
       <h1>Top 10 Buzzwords</h1>
@@ -145,9 +226,9 @@
   <!-- Credits Section -->
   <section class="title-section" id="credits">
     <div class="container-fluid shadow">
-      <h5>Thank you Chandler and Aaron for data &#10084</h5>
+      <h5>Thank you Chandler and Aaron for the data &#10084</h5>
       <br>
-      <h2>GHCB</h2>
+      <p>GHCB</p>
     </div>
   </section>
 
