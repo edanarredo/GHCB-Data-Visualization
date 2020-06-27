@@ -6,3 +6,9 @@ Project structure is lacking, will fix as I improve.
 Technology Used: HTML, CSS, JavaScript, Bootstrap 4
 
 This website is intended for private use and is incomplete.
+
+Future Plans:
+
+-Data is dynamically updated every 3 months 
+-Hexagons text is nicer and not blurry
+-Final touches on div backgrounds
