@@ -93,12 +93,6 @@ am4core.ready(function () {
       return chart.colors.getIndex(target.dataItem.index);
    });
 
-
-   // -------- LINE CHART --------- //
-
-
-
-
    /* ---------- CIRCLE CHART -------------- */
 
    // Create chart instance
@@ -154,6 +148,8 @@ am4core.ready(function () {
    pieSeries.hiddenState.properties.startAngle = -90;
 
 }); // end am4core.ready()
+
+/* ----- Google Line Chart ------ */
 
 google.charts.load('current', { 'packages': ['corechart'] });
 google.charts.setOnLoadCallback(drawChart);
