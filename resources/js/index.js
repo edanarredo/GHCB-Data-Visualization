@@ -106,7 +106,7 @@ am4core.ready(function () {
       "word": "Yes",
       "density": 2900
    }, {
-      "word": "Fuck",
+      "word": "F***",
       "density": 1392
    }, {
       "word": "Work",
@@ -118,13 +118,13 @@ am4core.ready(function () {
       "word": "league",
       "density": 1030
    }, {
-      "word": "gay",
+      "word": "gg",
       "density": 850
    }, {
       "word": "sure",
       "density": 650
    }, {
-      "word": "shit",
+      "word": "s***",
       "density": 581
    }, {
       "word": "tarkov",
