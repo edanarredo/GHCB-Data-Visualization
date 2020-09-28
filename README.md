@@ -8,7 +8,7 @@ Data collected by Aaron and Chandler (friends - they data-mined manually) includ
   
 You can view a deployment of it here: https://edanarredo.github.io/GHCB-Data-Visualization/
 
-I'm still figuring out project structure 'etiquette' so I apologize if nevigating this repository is confusing (there aren't too many files anyways).
+I'm still figuring out project structure 'etiquette' so I apologize if navigating this repository is confusing (there aren't too many files anyways).
 
 Technology Used: HTML, CSS, JavaScript, Bootstrap 4
 
